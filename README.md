@@ -8,6 +8,7 @@ Nada de esto procesa archivos en un servidor: el navegador de cada persona desca
 
 | Carpeta | Qué es | Licencia |
 |---|---|---|
+| `pandoc/3.10/` | pandoc 3.10 compilado a WebAssembly (binario oficial, tomado del paquete npm `pandoc-wasm` 1.1.0) y `pandoc-worker.js`, un worker que lo ejecuta como programa aparte | GPL-2.0 o posterior (ver `NOTICE.md`) |
 | `libreoffice/efaf067/` | LibreOffice compilado a WebAssembly (compilación ZetaOffice 24, build `efaf0670b4d055f838a2849becb10f08aa06a257`, del 13 de mayo de 2025). Copia exacta de `https://cdn.zetaoffice.net/zetaoffice_latest/` | MPL-2.0 y licencias de terceros de LibreOffice (ver `NOTICE.md`) |
 
 Los binarios grandes (`*.wasm.br`, `*.data.br`) están comprimidos en brotli, igual que en el CDN original. `manifest.json` anota el tamaño abierto y la huella SHA-256 de cada archivo.

@@ -1,0 +1,11 @@
+{
+  "version": "3.10",
+  "fecha": "2026-11-11",
+  "archivos": {
+    "pandoc.wasm.br": {
+      "bytes": 10768302,
+      "crudo": 58580800,
+      "sha256": "b47c9de52b5b45f103c2dac6fea52591aeafe3dd6cafed13331b67575233a2ff"
+    }
+  }
+}
